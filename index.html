@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>תיפוף גוף| סדנאות קצב| סדנאות לחברות</title>
+    <link href="/workspace/static/css/design.css?v2" rel="stylesheet" type="text/css"/>
+    <link rel="preload" href="/workspace/static/sound/ping.mp3" as="media">
+
+</head>
+<body class="home-page">
+<audio id="player" src="/workspace/static/sound/ping.mp3" preload="auto"></audio>
+<div id="wrapper">
+    <div id="header">
+        <div id="movie">
+            <iframe width="420" height="315" src="https://www.youtube.com/embed/y6J4dWjitUc" frameborder="0"
+                    allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+        <div id="menu">
+            <ul>
+                <li>
+                    <span id="index"></span>
+                    <a onmouseover="playSound('index')" onmouseout="noSound('index')" href="/">
+                        <img src="/workspace/upload/menu/home_cover.png" alt="דף הבית"/>
+                    </a>
+                </li>
+                <li>
+                    <span id="about"></span>
+                    <a onmouseover="playSound('about')" onmouseout="noSound('about')" href="/page/אודות">
+                        <img src="/workspace/upload/menu/about_cover.png" alt="אודות"/>
+                    </a>
+                </li>
+                <li>
+                    <span id="workshop"></span>
+                    <a onmouseover="playSound('workshop')" onmouseout="noSound('workshop')" href="/page/סדנאות-לחברות">
+                        <img src="/workspace/upload/menu/workshop_cover.png" alt="סדנאות לחברות"/>
+                    </a>
+                </li>
+                <li>
+                    <span id="kids"></span>
+                    <a onmouseover="playSound('kids')" onmouseout="noSound('kids')" href="/page/ילדים-ונוער">
+                        <img src="/workspace/upload/menu/youth_cover.png" alt="ילדים ונוער"/>
+                    </a>
+                </li>
+                <li>
+                    <span id="pro"></span>
+                    <a onmouseover="playSound('pro')" onmouseout="noSound('pro')" href="/page/הכשרה-מקצועית">
+                        <img src="/workspace/upload/menu/pro_cover.png" alt="הכשרה מקצועית"/>
+                    </a>
+                </li>
+                <li>
+                    <span id="blog"></span>
+                    <a onmouseover="playSound('blog')" onmouseout="noSound('blog')" href="/blog">
+                        <img src="/workspace/upload/menu/blog_cover.png" alt="בלוג"/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="middle">
+        <div id="middleContent">
+            <div id="main_text">
+                <h1>סדנאות קצב ותיפוף גוף</h1>
+                <p>סדנאות קצב מטורפות, המשלבות תיפוף גוף, קול, תנועה ונגינה
+                    על כלים לא קונבנציונאליים כמו דליים, סירים ומקלות וכל זאת
+                    בהרבה צחוק, הומור ושמחה.<br/>סדנת הקצב מאפשרת לנו לחזור ולהיות קצת ילדים ולעשות
+                    דברים שלא חשבנו שנעיז. המשתתפים בסדנא מגלים להפתעתם
+                    שיש להם קצב שהסתתר בתוכם והגוף שלהם יכול לשמש
+                    ככלי נגינה מופלא ומהנה מאין כמוהו.
+                </p>
+                <h2> לפרטים והרשמה <a href="tel:0544538475" class="link">054-4538475</a> <a href="mailto:ermossita@gmail.com" class="link">ermossita@gmail.com</a></h2>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div id="entries">
+            <ul>
+                <li>
+                    <a href="/page/סדנאות-לחברות/">
+                        <img src="/workspace/static/images/cat_1.png" alt="סדנת קצב לחברות"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/page/הכשרה-מקצועית/">
+                        <img src="/workspace/static/images/cat_2.png" alt="סדנאות והכשרות מקצועיות"/>
+                    </a>
+                </li>
+                <li>
+                    <a href="/page/ילדים-ונוער/">
+                        <img src="/workspace/static/images/cat_3.png" alt="סדנאות לילדים, נוער ומשפחה"/>
+                    </a>
+                </li>
+            </ul>
+            <div id="webmeup">
+                <a href="http://www.webmeup.co.il" target="_blank">אתר תדמית: WebMeUp</a>
+            </div>
+        </div>
+        <!--<div  id="contact">
+            <h1>תופפו על הצור קשר<br/>ונתופף אליכם חזרה</h1>
+            <form id="contact_form" method="post" action="" enctype="multipart/form-data">
+                <input name="MAX_FILE_SIZE" type="hidden" value="5242880"/>
+                <table>
+                    <tbody>
+                    <tr>
+                        <th class="form_label">
+                            <label for="name">שם:</label>
+                        </th>
+                        <td>
+                            <input class="input" type="text" id="name" name="fields[name]"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="form_label">
+                            <label for="email">דוא"ל:</label>
+                        </th>
+                        <td>
+                            <input class="input" type="text" id="email" name="fields[email]"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="form_label">
+                            <label for="phone">טלפון:</label>
+                        </th>
+                        <td>
+                            <input class="input" type="text" id="phone" name="fields[phone]"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th></th>
+                        <td>
+                            <input id="send_contact" name="action[enquiry]" type="submit" value="שלח"/>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+                <input name="send-email[sender-name]" value="Symphony CMS" type="hidden"/>
+                <input name="send-email[subject]" value="New enquiry" type="hidden"/>
+                <input name="send-email[recipient]" value="ermossita" type="hidden"/>
+                <input name="send-email[body]" value="fields[name],fields[email],fields[phone]" type="hidden"/>
+            </form>
+        </div>-->
+    </div>
+</div>
+<script src="/workspace/static/js/app.min.js"></script>
+</body>
+</html>
